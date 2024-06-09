@@ -7,28 +7,28 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("27497317"))
+API_HASH = getenv("912dc329039f9fcf92b6ace0efb35cef")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7221149690:AAGspc1Dw2mnrVqJg1on6bQJPU2IzO5aq00")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://OrboroBot:OrboroBot@cluster0.tvxqfcx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002207392342", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5605826172))
+OWNER_ID = int(getenv("6484740378", 5605826172))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("orborobot")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-2c5ef219-3ac7-4908-b6cf-d2b12e44bf8f")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -39,11 +39,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Saykkunomusic")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/College_wali_masti")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DigiTarc")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/OrboroBotSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", false))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQGjk2UALpvTOlUtMQIo-J586DOK8aveUVKgvrDoza8YwezMXQeZpcO7IgsEtAbugDKbWIia-8cTPWnU7T3IdQcu9XbkB1xvp9Wmw3ctIKhStcWqSlSAUUTM1225zCSXU7knetF1yW67QroGpfK_rgXj35TYThB_REFqeXEiaVZ9r6LGwUBF8EJu9iM0GrnrEYVvCqb3wCr5vSa-8fPlafCOjtmpbFEfnDU1YQ-d52bLkENsiw6UzvzHUZUCkB0fl8kqzg3AueK8l3R08Y5v8pJIlah6EUzY3t3XjFGBXo77QHC_1gyPsrwNBv4gIPWjQob8ksRQFStnBCA1MF53BRm9VQT_GwAAAAGChUkaAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
